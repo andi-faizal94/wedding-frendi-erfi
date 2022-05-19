@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo1 from '../assets/image1.jpeg';
 import logo2 from '../assets/image2.jpeg';
-// import logo3 from '../assets/image3.jpeg';
 import logo4 from '../assets/image4.jpeg';
 import logo5 from '../assets/image5.jpeg';
 import logo6 from '../assets/image6.jpeg';
@@ -173,31 +173,31 @@ export default function Main() {
           <h1 className="text-green-600 font-bold text-xl">Galeri</h1>
         </div>
         <div className="flex flex-wrap flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0 space-x-0 md:space-x-1 p-0">
-          <img
+          <LazyLoadImage
             data-aos="fade-right"
             className="w-2/12 h-1/2  md:w-2/12 object-cover rounded-sm"
             src={logo1}
             alt="images"
           />
-          <img
+          <LazyLoadImage
             data-aos="fade-left"
             className="w-2/12 h-1/2 md:w-2/12 object-cover rounded-sm"
             src={logo2}
             alt="images"
           />
-          <img
+          <LazyLoadImage
             data-aos="fade-up"
             className="w-2/12 h-1/2  md:w-2/12 object-cover rounded-sm"
             src={logo4}
             alt="images"
           />
-          <img
+          <LazyLoadImage
             data-aos="fade-right"
             className="w-2/12 h-1/2  md:w-2/12 object-cover rounded-sm"
             src={logo5}
             alt="images"
           />
-          <img
+          <LazyLoadImage
             data-aos="fade-left"
             className="w-2/12 h-1/2  md:w-2/12 object-cover rounded-sm"
             src={logo6}
