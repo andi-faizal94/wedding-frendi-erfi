@@ -153,9 +153,6 @@ export default function Main() {
           </h1>
           <h1 className="text-cyan-600 text-center">Senin, 06 Juni 2022</h1>
           <h1 className="text-cyan-600 text-center">Kuda Lumping</h1>
-          <h1 className="text-pink-400 font-semibold text-center">
-            Pukul 10:00
-          </h1>
         </div>
 
         <div className="text-center  mt-4 mb-4" data-aos="fade-up">
@@ -210,19 +207,12 @@ export default function Main() {
       </div>
       <div className="flex flex-col md:flex-row fixed top-1/2 left-2 space-y-2 md:space-x-2">
         <div className="flex items-center bg-violet-700 p-2 rounded-full">
-          {/* <input type="button" className="" value="" /> */}
           <FaMusic className="text-white" onClick={playSound} />
         </div>
         <div className="flex items-center bg-violet-700 p-2 rounded-full">
-          {/* <input type="button" className="" value="" /> */}
           <FaPauseCircle className="text-white" onClick={pauseSound} />
         </div>
         <div className="flex items-center bg-violet-700 p-2 rounded-full">
-          {/* <input
-            type="button"
-            checked={playInLoop}
-            onChange={(e) => setPlayInLoop(e.target.checked)}
-          /> */}
           <FaStopCircle className="text-white" onClick={stopSound} />
         </div>
       </div>
