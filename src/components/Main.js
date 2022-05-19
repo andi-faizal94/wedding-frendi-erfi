@@ -206,13 +206,13 @@ export default function Main() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row fixed top-1/2 left-2 space-y-2 md:space-x-2">
-        <div className="flex items-center bg-violet-700 p-2 rounded-full">
+        <div className="flex items-center bg-violet-700 p-2 rounded-full cursor-pointer">
           <FaMusic className="text-white" onClick={playSound} />
         </div>
-        <div className="flex items-center bg-violet-700 p-2 rounded-full">
+        <div className="flex items-center bg-violet-700 p-2 rounded-full cursor-pointer">
           <FaPauseCircle className="text-white" onClick={pauseSound} />
         </div>
-        <div className="flex items-center bg-violet-700 p-2 rounded-full">
+        <div className="flex items-center bg-violet-700 p-2 rounded-full cursor-pointer">
           <FaStopCircle className="text-white" onClick={stopSound} />
         </div>
       </div>
