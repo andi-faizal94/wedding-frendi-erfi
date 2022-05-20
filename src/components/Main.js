@@ -103,7 +103,7 @@ export default function Main() {
               Frendi Agus Setiawan
             </h1>
             <h1 className="text-cyan-600 text-center">
-              Putra Dari Bapak Supandar
+              Putra Dari H.Bapak Supandar
             </h1>
             <h1 className="text-cyan-600 text-center">&</h1>
             <h1 className="text-cyan-600 text-center">Ibu Hj.Walminah</h1>
