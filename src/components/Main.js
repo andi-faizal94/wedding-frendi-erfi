@@ -43,7 +43,7 @@ export default function Main() {
   };
 
   return (
-    <div className="App relative bg-teal-300">
+    <div className="App relative bg-white">
       <h1
         data-aos="fade-down"
         className="pt-10 pb-2 text-3xl text-center font-lato font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-100 to-red-900 mb-4"
